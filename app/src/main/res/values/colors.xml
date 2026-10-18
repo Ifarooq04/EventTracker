@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#FF1E3A4C</color>
+    <color name="toolbar">#FF0F2533</color>
+    <color name="light_background">#FFD6E6EF</color>
+    <color name="title_text">#FF102530</color>
+    <color name="sub_text">#FF3A5566</color>
+</resources>

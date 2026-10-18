@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Event Tracker</string>
+    <string name="file_name">Events.json</string>
+
+    <!-- toolbar & menu -->
+    <string name="event_count">%1$d Events</string>
+    <string name="add">Add</string>
+    <string name="info">Info</string>
+    <string name="save">Save</string>
+    <!-- intentextras -->
+    <string name="event_key">EVENT</string>
+    <string name="position_key">POSITION</string>
+    <!-- putting filters here-->
+    <string name="clear">Clear</string>
+
+    <!-- edit activity -->
+    <string name="edit_event">Edit Event</string>
+    <string name="event_name_hint">Event Name</string>
+    <string name="location_hint">Location</string>
+    <string name="date_hint">Date (MM/DD/YYYY)</string>
+    <string name="notes_hint">Notes (optional)</string>
+    <string name="missing_values">All required values are not present</string>
+    <string name="bad_date">Date must be in MM/DD/YYYY format</string>
+
+    <!-- the dialogs -->
+    <string name="save_event_title">Save Event?</string>
+    <string name="save_event_msg">Do you want to save this event?</string>
+    <string name="delete_event_title">Delete Event?</string>
+    <string name="delete_event_msg">Delete the event \'%1$s\'?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- the about activity -->
+    <string name="about_title">Event Tracker</string>
+    <string name="about_copyright">© 2026 Ibrahim Farooq</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_image_desc">Background image</string>
+
+    <!-- event types: first item is the "no filter" / "not chosen" choice -->
+    <string-array name="filter_types">
+        <item>All Types</item>
+        <item>BAR</item>
+        <item>BEACH</item>
+        <item>CAFE</item>
+        <item>CINEMA</item>
+        <item>CONCERT</item>
+        <item>FESTIVAL</item>
+        <item>GALLERY</item>
+        <item>HOTEL</item>
+        <item>MUSEUM</item>
+        <item>OTHER</item>
+        <item>PARK</item>
+        <item>RESTAURANT</item>
+        <item>SPORTS</item>
+        <item>THEATER</item>
+    </string-array>
+    <string-array name="edit_types">
+        <item>Select Event Type</item>
+        <item>BAR</item>
+        <item>BEACH</item>
+        <item>CAFE</item>
+        <item>CINEMA</item>
+        <item>CONCERT</item>
+        <item>FESTIVAL</item>
+        <item>GALLERY</item>
+        <item>HOTEL</item>
+        <item>MUSEUM</item>
+        <item>OTHER</item>
+        <item>PARK</item>
+        <item>RESTAURANT</item>
+        <item>SPORTS</item>
+        <item>THEATER</item>
+    </string-array>
+
+    <!-- the star ratings: position 1..5 = rating 1..5 -->
+    <string-array name="filter_ratings">
+        <item>Any Rating</item>
+        <item>1 ★☆☆☆☆</item>
+        <item>2 ★★☆☆☆</item>
+        <item>3 ★★★☆☆</item>
+        <item>4 ★★★★☆</item>
+        <item>5 ★★★★★</item>
+    </string-array>
+    <string-array name="edit_ratings">
+        <item>Select Rating</item>
+        <item>1 ★☆☆☆☆</item>
+        <item>2 ★★☆☆☆</item>
+        <item>3 ★★★☆☆</item>
+        <item>4 ★★★★☆</item>
+        <item>5 ★★★★★</item>
+    </string-array>
+</resources>
